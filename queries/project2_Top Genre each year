@@ -1,0 +1,40 @@
+/* 
+Query: Top Genre Each Year
+Purpose: Find the single most popular genre for each year based on revenue.
+Business Insight: Pinpoints the top-performing genre annually for strategic promotion.
+Tables used:
+- Invoice
+- InvoiceLine
+- Track
+- Genre
+*/
+
+WITH GenreRevenue AS (
+    SELECT 
+        strftime('%Y', i.InvoiceDate) AS Year, 
+        g.Name AS Genre, 
+        SUM(il.UnitPrice * il.Quantity) AS TotalRevenue
+    FROM InvoiceLine il
+    JOIN Invoice i 
+        ON il.InvoiceId = i.InvoiceId
+    JOIN Track t 
+        ON il.TrackId = t.TrackId
+    JOIN Genre g 
+        ON t.GenreId = g.GenreId
+    GROUP BY 
+        Year, 
+        Genre
+)
+SELECT 
+    Year, 
+    Genre, 
+    TotalRevenue
+FROM GenreRevenue
+WHERE (Year, TotalRevenue) IN (
+    SELECT 
+        Year, 
+        MAX(TotalRevenue)
+    FROM GenreRevenue
+    GROUP BY Year
+)
+ORDER BY Year ASC;
