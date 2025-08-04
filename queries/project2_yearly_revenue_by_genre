@@ -1,0 +1,28 @@
+/* 
+Query: Yearly Revenue by Genre
+Purpose: Identify which genres generate the most revenue each year.
+Business Insight: Tracks changing audience preferences and supports marketing decisions.
+Tables used:
+- Invoice: Contains invoice dates (for year)
+- InvoiceLine: Links tracks sold to invoices and includes price/quantity
+- Track: Links to genre and album
+- Genre: Contains genre names
+*/
+
+SELECT 
+    strftime('%Y', i.InvoiceDate) AS Year, 
+    g.Name AS Genre, 
+    SUM(il.UnitPrice * il.Quantity) AS TotalRevenue
+FROM InvoiceLine il
+JOIN Invoice i 
+    ON il.InvoiceId = i.InvoiceId
+JOIN Track t 
+    ON il.TrackId = t.TrackId
+JOIN Genre g 
+    ON t.GenreId = g.GenreId
+GROUP BY 
+    Year, 
+    Genre
+ORDER BY 
+    Year ASC, 
+    TotalRevenue DESC;
