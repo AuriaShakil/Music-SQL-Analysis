@@ -1,0 +1,11 @@
+﻿CustomerId,CustomerName,Country,Orders,TotalSpend,AvgOrderValue
+59,Puja Srivastava,India,6,36.64,6.11
+2,Leonie Köhler,Germany,7,37.62,5.37
+8,Daan Peeters,Belgium,7,37.62,5.37
+9,Kara Nielsen,Denmark,7,37.62,5.37
+10,Eduardo Martins,Brazil,7,37.62,5.37
+11,Alexandre Rocha,Brazil,7,37.62,5.37
+12,Roberto Almeida,Brazil,7,37.62,5.37
+13,Fernanda Ramos,Brazil,7,37.62,5.37
+14,Mark Philips,Canada,7,37.62,5.37
+16,Frank Harris,USA,7,37.62,5.37
