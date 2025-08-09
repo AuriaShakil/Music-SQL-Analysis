@@ -1,47 +1,105 @@
-# Music-SQL-Analysis
+🎵 WSDA Music SQL Analysis – Projects 1 to 5
+📊 Project Overview
+This repository contains five SQL analysis projects using the WSDA Music database.
+Each project answers a specific business question relevant to the music industry and produces actionable insights for marketing, pricing, and playlist strategies.
 
-🎵 **SQL-based analysis** of the WSDA Music database, exploring song metadata, artist popularity, and genre trends through queries, aggregations, and visual insights. This project demonstrates how relational database queries can uncover trends in the music industry.
+All SQL queries are saved in the queries/ folder as .sql files with detailed comments explaining their purpose, methodology, and tables used.
+Outputs are exported from DB Browser for SQLite as .csv files in the outputs/ folder.
 
-🚧 **Project in Progress** – Outputs and visualizations will be added in future updates.
+📝 Projects
+Project 1 – Top Revenue-Generating Artists and Albums
+Goal: Identify which artists and albums generate the most revenue.
+Insight: Pinpoints high-performing artists/albums for targeted promotion.
 
-## 📊 Project Overview
-Using the WSDA Music database, this project:
-- Analyzes artist popularity based on total plays or streams
-- Examines genre distribution and popularity trends over time
-- Identifies top artists and albums by various metrics
-- Calculates average song duration per genre and year
-- Generates visualizations for trends and comparisons
+Queries:
 
-## 🛠️ Tools & Technologies
-- **SQL** (SQLite via DB Browser for SQLite)
-- **Data Visualization**: Excel / Power BI / Tableau (optional)
-- **GitHub** for version control and documentation
+Project1_top_artists_and_albums_by_revenue.sql
 
-## 🧪 Methodology
-1. **Data Exploration** – Investigated database schema and relationships between tables.
-2. **Query Development** – Wrote SQL queries to answer analytical questions.
-3. **Aggregation & Filtering** – Used SQL functions (`SUM`, `COUNT`, `AVG`, `GROUP BY`, etc.) to extract insights.
-4. **Visualization** – Exported query results for visual representation of trends.
+Project1_top_albums_by_revenue.sql
 
-## 📁 Project Structure
-- `WSDA_Music.db` – Main database file
-- `queries/` – Folder containing `.sql` files for each query
-- `output/` – CSV exports, charts, and visualizations
-- `README.md` – Project documentation
+Outputs:
 
-## 📈 Example Queries
-- Top 10 most popular artists by total streams
-- Average song duration by genre
-- Yearly trend of songs released
-- Artists with the highest album counts
-- Genre popularity comparison
+outputs/project1_top_artists_and_albums_by_revenue.csv
 
-## 📂 Dataset
-The database file used in this project is [`WSDA_Music.db`](./WSDA_Music.db).  
-A CSV version of the database and CSV exports of query results will be added in future updates.
+outputs/project1_top_albums_by_revenue.csv
 
-## ✅ Conclusion
-This project shows how SQL queries can be used to derive insights from structured music data, helping to answer key questions about artist success, song trends, and genre performance.
+Project 2 – Genre Profitability and Growth Trends Over Time
+Goal: Measure yearly revenue by genre and track top genres per year.
+Insight: Identifies emerging genres for strategic marketing investment.
 
-## 🙌 Credits
-Created by **Auria Shakil** using the WSDA Music dataset for practice in SQL querying, data analysis, and GitHub documentation.
+Queries:
+
+Project2_yearly_revenue_by_genre.sql
+
+Project2_top_genre_each_year.sql
+
+Outputs:
+
+outputs/project2_yearly_revenue_by_genre.csv
+
+outputs/project2_top_genre_each_year.csv
+
+Project 3 – Customer Segmentation by Spending Behavior
+Goal: Segment customers into top spenders and low spenders.
+Insight: Helps design loyalty programs for high-value customers.
+
+Queries:
+
+Project3_top_spending_customers.sql
+
+Project3_low_spending_customers.sql
+
+Outputs:
+
+outputs/project3_top_spending_customers.csv
+
+outputs/project3_low_spending_customers.csv
+
+Project 4 – Track Popularity vs. Price Elasticity
+Goal: Analyze correlation between track price and total sales.
+Insight: Guides data-driven pricing strategies.
+
+Query:
+
+Project4_track_price_vs_sales.sql
+
+Output:
+
+outputs/project4_track_price_vs_sales.csv
+
+Project 5 – Playlist Influence on Sales
+Goal: Compare sales for tracks in playlists vs. not in playlists, and rank top-performing playlists.
+Insight: Validates playlist curation as a sales driver.
+
+Queries:
+
+Project5_playlist_influence_overall.sql
+
+Project5_top_playlists_by_sales.sql
+
+Outputs:
+
+outputs/project5_playlist_influence_overall.csv
+
+outputs/project5_top_playlists_by_sales.csv
+
+🛠 Tools & Technologies
+SQL (SQLite via DB Browser for SQLite)
+
+Excel / CSV for exports
+
+GitHub for version control and documentation
+
+📂 Repository Structure
+bash
+Copy
+Edit
+WSDA-Music-SQL-Analysis/
+│
+├── queries/         # All SQL files with detailed comments
+├── outputs/         # CSV results exported from DB Browser
+├── WSDA_Music.db    # Database file
+└── README.md        # Project documentation
+✅ Conclusion
+This series of projects demonstrates how SQL can be applied to real-world music industry data to uncover trends in revenue, customer behavior, and product performance.
+The insights generated here could inform marketing, pricing, and playlist strategies for a digital music business.
