@@ -25,8 +25,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 **Insight:** Identifies emerging genres for strategic marketing investment.  
 
 **Queries:**  
-- `queries/Project2_yearly_revenue_by_genre.sql`  
-- `queries/Project2_top_genre_each_year.sql`  
+- [project2_Top Genre each year](queries/project2_Top%20Genre%20each%20year)  
+- [project2_yearly_revenue_by_genre](queries/project2_yearly_revenue_by_genre)   
 
 **Outputs:**  
 - `output/project2_yearly_revenue_by_genre.csv`  
