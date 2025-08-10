@@ -5,7 +5,6 @@ This repository contains five SQL analysis projects using the **WSDA Music** dat
 All SQL queries are saved in the `queries/` folder as `.sql` files with detailed comments explaining their purpose, methodology, and tables used.  
 Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `output/` folder.  
 
-
 ## 📝 Projects  
 
 ### **Project 1 – Top Revenue-Generating Artists and Albums**  
