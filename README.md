@@ -25,7 +25,11 @@ Designed with a consulting and business analytics focus, these projects highligh
 **Outputs:**  
 - [project1_top_albums_by_revenue.csv](output/project1_top_albums_by_revenue.csv)  
 - [project1_top_artists_and_albums_by_revenue.csv](output/project1_top_artists_and_albums_by_revenue.csv)
-
+  
+**Sample Output Highlights:**
+- **Top Album:** *Mix It Up* by *Constancy* – $36.81 revenue  
+- **Top Artist & Album Combo:** *Constancy* with *Mix It Up* – $36.81 revenue  
+- Other high performers include *Flirt* by *Nathanael Healey* and *Harness Partnerships* by *Barstow*.  
 
 
 ### **Project 2 – Genre Profitability and Growth Trends Over Time**  
@@ -40,6 +44,10 @@ Designed with a consulting and business analytics focus, these projects highligh
 **Outputs:**  
 - [project2_top_genre_each_year.csv](output/project2_top_genre_each_year.csv)  
 - [project2_yearly_revenue_by_genre.csv](output/project2_yearly_revenue_by_genre.csv)
+  
+**Sample Output Highlights:**
+- **Consistently Top Genre:** Rock (2009 revenue $176.22, 2010 $158.40, 2011 $157.42)  
+- Detailed breakdown includes Latin, Metal, and other genres by year. 
 
 
 ### **Project 3 – Customer Segmentation by Spending Behavior**  
@@ -53,7 +61,12 @@ Designed with a consulting and business analytics focus, these projects highligh
 
 **Outputs:**  
 - [project3_low_spending_customers.csv](output/project3_low_spending_customers.csv)  
-- [project3_top_spending_customers.csv](output/project3_top_spending_customers.csv)
+- [project3_top_spending_customers.csv](output/project3_top_spending_customers.csv
+
+**Sample Output Highlights:**
+- **Low Spenders:** Example – *Puja Srivastava* (India) spent $36.64 over 6 orders, average $6.11/order  
+- **Top Spenders:** Example – *John Doeein* spent $1000.86 in a single order  
+- Insights help target loyalty programs and upselling opportunities.   
   
 
 ### **Project 4 – Track Popularity vs. Price Elasticity**  
@@ -66,7 +79,10 @@ Designed with a consulting and business analytics focus, these projects highligh
 
 **Output:**  
 - [project4_track_price_vs_sales.csv](output/project4_track_price_vs_sales.csv)
-
+  
+**Sample Output Highlights:**
+- Tracks like *Latlux* and *Tres-Zap* priced at $0.99 sold 19 units each  
+- Identifies the balance point between price and sales volume.  
 
 
 ### **Project 5 – Playlist Influence on Sales**  
@@ -80,8 +96,12 @@ Designed with a consulting and business analytics focus, these projects highligh
 
 **Outputs:**  
 - [project5_playlist_influence_overall.csv](output/project5_playlist_influence_overall.csv)  
-- [project5_top_playlists_by_sales.csv](output/project5_top_playlists_by_sales.csv)  
-
+- [project5_top_playlists_by_sales.csv](output/project5_top_playlists_by_sales.csv)
+  
+**Sample Output Highlights:**
+- Tracks **in playlists** generated $2,328.60 revenue from 2,240 units  
+- **Top Playlist:** *Music* – 3,290 tracks, 2,129 units sold, $2,107.71 revenue  
+- Confirms playlists drive higher engagement and sales.  
 
 
 ## 🛠 Tools & Technologies  
