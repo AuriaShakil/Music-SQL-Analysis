@@ -38,9 +38,9 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 **Insight:** Helps design loyalty programs for high-value customers.  
 
 **Queries:**  
-- [Project3_top_spending_customers.sql](queries/Project3_top_spending_customers.sql)  
-- [Project3_low_spending_customers.sql](queries/Project3_low_spending_customers.sql)  
-
+-[project3_top_spending_customers.sql](queries/project3_top_spending_customers.sql)  
+- [project3_low_spending_customers.sql](queries/project3_low_spending_customers.sql)
+  
 **Outputs:**  
 - `output/project3_top_spending_customers.csv`  
 - `output/project3_low_spending_customers.csv`  
