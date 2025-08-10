@@ -38,8 +38,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 **Insight:** Helps design loyalty programs for high-value customers.  
 
 **Queries:**  
-- `queries/Project3_top_spending_customers.sql`  
-- `queries/Project3_low_spending_customers.sql`  
+- [Project3_top_spending_customers.sql](queries/Project3_top_spending_customers.sql)  
+- [Project3_low_spending_customers.sql](queries/Project3_low_spending_customers.sql)  
 
 **Outputs:**  
 - `output/project3_top_spending_customers.csv`  
@@ -51,7 +51,7 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 **Insight:** Guides data-driven pricing strategies.  
 
 **Query:**  
-- `queries/Project4_track_price_vs_sales.sql`  
+- [project4_track_price_vs_sales.sql](queries/project4_track_price_vs_sales.sql) 
 
 **Output:**  
 - `output/project4_track_price_vs_sales.csv`  
@@ -62,8 +62,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 **Insight:** Validates playlist curation as a sales driver.  
 
 **Queries:**  
-- `queries/Project5_playlist_influence_overall.sql`  
-- `queries/Project5_top_playlists_by_sales.sql`  
+- [project5_playlist_influence_overall.sql](queries/project5_playlist_influence_overall.sql)  
+- [project5_top_playlists_by_sales.sql](queries/project5_top_playlists_by_sales.sql)  
 
 **Outputs:**  
 - `output/project5_playlist_influence_overall.csv`  
