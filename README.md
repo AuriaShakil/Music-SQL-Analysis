@@ -12,8 +12,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 **Insight:** Pinpoints high-performing artists/albums for targeted promotion.  
 
 **Queries:**  
-- `queries/project1_top_albums_by_revenue.sql 
-- `queries/Project1_top_albums_by_revenue.sql`  
+- [project1_top_albums_by_revenue.sql](queries/project1_top_albums_by_revenue.sql)  
+- [project1_top_artists_and_albums_by_revenue.sql](queries/project1_top_artists_and_albums_by_revenue.sql)  
 
 **Outputs:**  
 - `output/project1_top_artists_and_albums_by_revenue.csv`  
