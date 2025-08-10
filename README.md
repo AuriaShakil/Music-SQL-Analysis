@@ -23,7 +23,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 
 **Outputs:**  
 - [project1_top_albums_by_revenue.csv](output/project1_top_albums_by_revenue.csv)  
-- [project1_top_artists_and_albums_by_revenue.csv](output/project1_top_artists_and_albums_by_revenue.csv)  
+- [project1_top_artists_and_albums_by_revenue.csv](output/project1_top_artists_and_albums_by_revenue.csv)
 
 ---
 
@@ -32,13 +32,12 @@ Designed with a consulting and business analytics focus, these projects highligh
 **Business Impact:** Identifies emerging genres to guide strategic marketing investments and content curation.  
 
 **Queries:**  
-- [project2_top_genre_each_year.sql](queries/project2_top_genre_each_year.sql)  
-- [project2_yearly_revenue_by_genre.sql](queries/project2_yearly_revenue_by_genre.sql)  
+- [project2_Top Genre each year](queries/project2_Top%20Genre%20each%20year)  
+- [project2_yearly_revenue_by_genre](queries/project2_yearly_revenue_by_genre)    
 
 **Outputs:**  
 - [project2_top_genre_each_year.csv](output/project2_top_genre_each_year.csv)  
-- [project2_yearly_revenue_by_genre.csv](output/project2_yearly_revenue_by_genre.csv)  
-
+- [project2_yearly_revenue_by_genre.csv](output/project2_yearly_revenue_by_genre.csv)
 ---
 
 ### **Project 3 – Customer Segmentation by Spending Behavior**  
@@ -51,8 +50,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 
 **Outputs:**  
 - [project3_low_spending_customers.csv](output/project3_low_spending_customers.csv)  
-- [project3_top_spending_customers.csv](output/project3_top_spending_customers.csv)  
-
+- [project3_top_spending_customers.csv](output/project3_top_spending_customers.csv)
 ---
 
 ### **Project 4 – Track Popularity vs. Price Elasticity**  
@@ -63,7 +61,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 - [project4_track_price_vs_sales.sql](queries/project4_track_price_vs_sales.sql)  
 
 **Output:**  
-- [project4_track_price_vs_sales.csv](output/project4_track_price_vs_sales.csv)  
+- [project4_track_price_vs_sales.csv](output/project4_track_price_vs_sales.csv)
 
 ---
 
