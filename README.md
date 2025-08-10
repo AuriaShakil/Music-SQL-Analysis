@@ -29,8 +29,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 - [project2_yearly_revenue_by_genre](queries/project2_yearly_revenue_by_genre)   
 
 **Outputs:**  
-- `output/project2_yearly_revenue_by_genre.csv`  
-- `output/project2_top_genre_each_year.csv`  
+- [project2_top_genre_each_year.csv](output/project2_top_genre_each_year.csv)  
+- [project2_yearly_revenue_by_genre.csv](output/project2_yearly_revenue_by_genre.csv)  
 
 
 ### **Project 3 – Customer Segmentation by Spending Behavior**  
@@ -42,8 +42,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 - [project3_low_spending_customers.sql](queries/project3_low_spending_customers.sql)
   
 **Outputs:**  
-- `output/project3_top_spending_customers.csv`  
-- `output/project3_low_spending_customers.csv`  
+- [project3_low_spending_customers.csv](output/project3_low_spending_customers.csv)  
+- [project3_top_spending_customers.csv](output/project3_top_spending_customers.csv)  
 
 
 ### **Project 4 – Track Popularity vs. Price Elasticity**  
@@ -54,7 +54,7 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 - [project4_track_price_vs_sales.sql](queries/project4_track_price_vs_sales.sql) 
 
 **Output:**  
-- `output/project4_track_price_vs_sales.csv`  
+- [project4_track_price_vs_sales.csv](output/project4_track_price_vs_sales.csv)
 
 
 ### **Project 5 – Playlist Influence on Sales**  
@@ -66,8 +66,8 @@ Outputs are exported from **DB Browser for SQLite** as `.csv` files in the `outp
 - [project5_top_playlists_by_sales.sql](queries/project5_top_playlists_by_sales.sql)  
 
 **Outputs:**  
-- `output/project5_playlist_influence_overall.csv`  
-- `output/project5_top_playlists_by_sales.csv`  
+- [project5_playlist_influence_overall.csv](output/project5_playlist_influence_overall.csv)  
+- [project5_top_playlists_by_sales.csv](output/project5_top_playlists_by_sales.csv)
 
 
 ## 🛠 Tools & Technologies  
