@@ -9,7 +9,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 - Translating technical analysis into **strategic recommendations**  
 - Delivering clean, reproducible work with clear documentation and outputs  
 
----
+
 
 ## 📝 Projects  
 
@@ -25,7 +25,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 - [project1_top_albums_by_revenue.csv](output/project1_top_albums_by_revenue.csv)  
 - [project1_top_artists_and_albums_by_revenue.csv](output/project1_top_artists_and_albums_by_revenue.csv)
 
----
+
 
 ### **Project 2 – Genre Profitability and Growth Trends Over Time**  
 **Goal:** Measure yearly revenue by genre and track top genres per year.  
@@ -38,7 +38,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 **Outputs:**  
 - [project2_top_genre_each_year.csv](output/project2_top_genre_each_year.csv)  
 - [project2_yearly_revenue_by_genre.csv](output/project2_yearly_revenue_by_genre.csv)
----
+
 
 ### **Project 3 – Customer Segmentation by Spending Behavior**  
 **Goal:** Segment customers into top spenders and low spenders.  
@@ -51,7 +51,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 **Outputs:**  
 - [project3_low_spending_customers.csv](output/project3_low_spending_customers.csv)  
 - [project3_top_spending_customers.csv](output/project3_top_spending_customers.csv)
----
+  
 
 ### **Project 4 – Track Popularity vs. Price Elasticity**  
 **Goal:** Analyze the correlation between track price and total sales.  
@@ -63,7 +63,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 **Output:**  
 - [project4_track_price_vs_sales.csv](output/project4_track_price_vs_sales.csv)
 
----
+
 
 ### **Project 5 – Playlist Influence on Sales**  
 **Goal:** Compare sales for tracks in playlists vs. not in playlists and rank top-performing playlists.  
@@ -77,7 +77,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 - [project5_playlist_influence_overall.csv](output/project5_playlist_influence_overall.csv)  
 - [project5_top_playlists_by_sales.csv](output/project5_top_playlists_by_sales.csv)  
 
----
+
 
 ## 🛠 Tools & Technologies  
 - **SQL (SQLite)** – complex joins, aggregation, filtering, ordering  
@@ -85,7 +85,7 @@ Designed with a consulting and business analytics focus, these projects highligh
 - **GitHub** – version control and documentation  
 - **DB Browser for SQLite** – database exploration and query execution  
 
----
+
 
 ## ✅ Conclusion  
 These projects demonstrate my ability to transform raw data into **actionable insights** and present them in a clear, business-relevant format. The analyses illustrate the application of SQL in uncovering patterns, trends, and opportunities—skills directly transferable to **consulting** and **business analyst roles**.  
